@@ -1,0 +1,135 @@
+﻿<!-- EditableSign.razor -->
+@page "/editablesign"
+@using GeneratorTablic.Data
+@inherits CreateSignBase
+
+<div class="container">
+    <h3>Create Door Sign</h3>
+
+    <!-- Dodaj formularz do tworzenia tabliczki -->
+    <EditForm Model="@RoomSign" OnValidSubmit="CreateSign">
+        <hr/>
+        <h4> Logo Settings</h4>
+        <div class="form-group row">
+            <label for="logoPosition" class="col-sm-1 col-form-label">Logo Position</label>
+            <div class="col-sm-2">
+                <InputSelect id="logoPosition" class="form-control" @bind-Value="@RoomSign.LogoPosition.Alignment">
+                    <option value="Left">Left</option>
+                    <option value="Middle">Middle</option>
+                    <option value="Right">Right</option>
+                </InputSelect>
+            </div>
+            <label for="logoPositionSize" class="col-sm-1 col-form-label">Logo Size</label>
+            <div class="col-sm-2">
+                <InputNumber id="logoPositionSize" class="form-control" placeholder="Logo Size" @bind-Value="@RoomSign.LogoPosition.Size"/>
+            </div>
+        </div>
+        <h4> Room Number Settings</h4>
+        <div class="form-group row">
+            <label for="roomNumber" class="col-sm-2 col-form-label">Room Number</label>
+            <div class="col-sm-2">
+                <InputText id="roomNumber" class="form-control" placeholder="Room Number" @bind-Value="RoomSign.RoomNumber"/>
+            </div>
+
+            <label for="roomNumberFontSize" class="col-sm-1 col-form-label">Font Size</label>
+            <div class="col-sm-2">
+                <InputNumber id="roomNumberFontSize" class="form-control" placeholder="Room Number Font Size" @bind-Value="RoomSign.RoomNumberFont.Size"/>
+            </div>
+
+            <label for="color" class="col-sm-1 col-form-label">Font Color</label>
+            <div class="col-sm-1">
+                <input type="color" id="roomNumberFontColor" @bind="RoomSign.RoomNumberFont.Color"/>
+            </div>
+
+            <label for="fontSelect" class="col-sm-1 col-form-label">Font</label>
+            <div class="col-sm-2">
+                <select id="fontSelect" class="form-control" @bind="RoomSign.RoomNumberFont.FontName">
+                    @foreach (var availableFont in AvailableFonts)
+                    {
+                        <option style="font-family: @availableFont;" value="@availableFont">@availableFont</option>
+                    }
+                </select>
+            </div>
+        </div>
+        <h4> People Managment</h4>
+        <!-- Dodaj inne pola formularza, takie jak osoby przydzielone do gabinetu -->
+        <div class="form-group row">
+            <label for="assignedPeople" class="col-sm-2 col-form-label">Assigned People</label>
+            <div class="row mb-2">
+                <div class="col-4">
+                    <input class="form-control" placeholder="Name" @bind="TempPerson.Name"/>
+                </div>
+                <div class="col-4">
+                    <input class="form-control" placeholder="Position" @bind="TempPerson.Position"/>
+                </div>
+                <div class="col-sm-2">
+                    <button type="button" class="btn btn-info" @onclick="AddPerson">+</button>
+                </div>
+            </div>
+        </div>
+        @* tu dodac ustawiaani koloru i rozmiaru tej sekcji i upiekszyc to - moge to zrobic wczoraj juz nmei zdazylam *@
+        <div class="form-group row">
+            <div class="col-sm-10 offset-sm-2">
+                @foreach (var person in RoomSign.AssignedPeople)
+                {
+                    <div class="row mb-2">
+                        <div class="col-4">
+                            <input class="form-control" placeholder="Name" @bind="person.Name"/>
+                        </div>
+                        <div class="col-4">
+                            <input class="form-control" placeholder="Position" @bind="person.Position"/>
+                        </div>
+                        <div class="col-2">
+                            <button type="button" class="btn btn-danger" @onclick="() => RemovePerson(person)">-</button>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-2 ml-auto">
+                <button type="submit" class="btn btn-primary">Create Sign</button>
+            </div>
+            <div class="col-sm-2">
+                <button type="button" class="btn btn-secondary ml-2" @onclick="GeneratePdfPreview">Preview PDF</button>
+            </div>
+        </div>
+    </EditForm>
+</div>
+
+@if (pdfPreview != null)
+{
+    <embed src="data:application/pdf;base64,@(Convert.ToBase64String(pdfPreview))" width="100%" height="600px"/>
+}
+@* *@
+@* to poniżej do refaktoru i do przeniesienia gdizes do jakiego serwisu *@
+
+@code {
+    private byte[] pdfPreview;
+    private List<string> AvailableFonts = new List<string> { "Arial", "Times New Roman", "Verdana", "Courier New", "Comic Sans MS" };
+
+    // private List<Person> TempAssignedPeople { get; set; } = new List<Person>();
+    private Person TempPerson { get; set; } = new Person();
+
+    private void AddPerson()
+    {
+        if (TempPerson != null)
+        {
+            RoomSign.AssignedPeople.Add(TempPerson);
+
+            TempPerson = new Person();
+        }
+    }
+
+    private void RemovePerson(Person person)
+    {
+        RoomSign.AssignedPeople.Remove(person);
+    }
+
+    private void GeneratePdfPreview()
+    {
+        pdfPreview = PdfService.GeneratePdfPreview(RoomSign);
+    }
+
+}
