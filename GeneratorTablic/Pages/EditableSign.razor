@@ -1,13 +1,14 @@
 ﻿<!-- EditableSign.razor -->
 @page "/editablesign"
 @using GeneratorTablic.Data
+@using BlazorSchool.Components.Web.UI
+@using BlazorSchool.Components.Web.Variants
 @inherits CreateSignBase
 
-<div class="container">
-    <h3>Create Door Sign</h3>
-
-    <!-- Dodaj formularz do tworzenia tabliczki -->
-    <EditForm Model="@RoomSign" OnValidSubmit="CreateSign">
+<BlazorLibrary>
+    <div class="container">
+        <h3>Create Door Sign</h3>
+        <!-- Dodaj formularz do tworzenia tabliczki -->
         <hr/>
         <h4> Logo Settings</h4>
         <div class="form-group row">
@@ -21,7 +22,7 @@
             </div>
             <label for="logoPositionSize" class="col-sm-1 col-form-label">Logo Size</label>
             <div class="col-sm-2">
-                <InputNumber id="logoPositionSize" class="form-control" placeholder="Logo Size" @bind-Value="@RoomSign.LogoPosition.Size"/>
+                <InputNumber id="logoPositionSize" class="form-control" placeholder="Logo Size" @bind-Value="@RoomSign.LogoPosition.Size" min="400" max="800"/>
             </div>
         </div>
         <h4> Room Number Settings</h4>
@@ -52,6 +53,27 @@
             </div>
         </div>
         <h4> People Managment</h4>
+        <div class="form-group row">
+            <label for="roomNumberFontSize" class="col-sm-1 col-form-label">Font Size</label>
+            <div class="col-sm-2">
+                <InputNumber id="roomNumberFontSize" class="form-control" placeholder="Room Number Font Size" @bind-Value="RoomSign.PersonNameFont.Size"/>
+            </div>
+        
+            <label for="color" class="col-sm-1 col-form-label">Font Color</label>
+            <div class="col-sm-1">
+                <input type="color" id="roomNumberFontColor" @bind="RoomSign.PersonNameFont.Color"/>
+            </div>
+        
+            <label for="fontSelect" class="col-sm-1 col-form-label">Font</label>
+            <div class="col-sm-2">
+                <select id="fontSelect" class="form-control" @bind="RoomSign.PersonNameFont.FontName">
+                    @foreach (var availableFont in AvailableFonts)
+                    {
+                        <option style="font-family: @availableFont;" value="@availableFont">@availableFont</option>
+                    }
+                </select>
+            </div>
+        </div>
         <!-- Dodaj inne pola formularza, takie jak osoby przydzielone do gabinetu -->
         <div class="form-group row">
             <label for="assignedPeople" class="col-sm-2 col-form-label">Assigned People</label>
@@ -88,15 +110,84 @@
         </div>
 
         <div class="form-group row">
-            <div class="col-sm-2 ml-auto">
-                <button type="submit" class="btn btn-primary">Create Sign</button>
-            </div>
-            <div class="col-sm-2">
-                <button type="button" class="btn btn-secondary ml-2" @onclick="GeneratePdfPreview">Preview PDF</button>
+            <div class="grid">
+                <button type="submit" class="btn btn-primary mr-2 ">Create Sign</button>
+                <BlazorCapturePdfButton Variants="new[] { BaseVariants.Primary }" TargetToken="Form" class="flex-fill">Save As Pdf</BlazorCapturePdfButton>
             </div>
         </div>
-    </EditForm>
-</div>
+        
+        <BlazorCaptureElement Token="Form" class="flex-fill">
+            <div class="form-group" style="margin-bottom: 150px">
+                <div class="sign-preview" style="@PreviewStyle">
+                        @if (!string.IsNullOrWhiteSpace(RoomSign.LogoPath))
+                        {
+                            <img src="@RoomSign.LogoPath" alt="Logo" style="@LogoPreviewStyle"/>
+                        }
+                        <div>
+                        <h2 style="@RoomNumberPreviewStyle">@RoomSign.RoomNumber</h2>
+                    </div>
+                </div>
+
+                <div class="people-container">
+                    @foreach (var person in RoomSign.AssignedPeople)
+                    {
+                        <div class="person-preview">
+                            <p>
+                                <h2 style="@PersonNamePreviewStyle ">
+                                    @person.Position @person.Name
+                                </h2>
+                            </p>
+                        </div>
+                    }
+                </div>
+            </div>
+        </BlazorCaptureElement>
+    </div>
+</BlazorLibrary>
+
+
+
+@code {
+    private string LogoPreviewStyle
+    {
+        get
+        {
+            switch (RoomSign.LogoPosition.Alignment)
+            {
+                case PositionAlignment.Left:
+                    return $"width: {RoomSign.LogoPosition.Size}px; float: left;";
+                case PositionAlignment.Middle:
+                    return $"width: {RoomSign.LogoPosition.Size}px; float:middle;";
+                case PositionAlignment.Right:
+                    return $"width: {RoomSign.LogoPosition.Size}px; float: right;";
+                default:
+                    return $"width: {RoomSign.LogoPosition.Size}px; float: left;";
+            }
+        }
+    }
+
+    private string PreviewStyle
+    {
+        get
+        {
+            switch (RoomSign.LogoPosition.Alignment)
+            {
+                case PositionAlignment.Left:
+                    return "display: flex; justify-content: flex-start; align-items: center; margin-top: 80px; margin-bottom: 80px;";
+                case PositionAlignment.Middle:
+                    return "display: flex; justify-content: center; align-items: center; margin-top: 80px; margin-bottom: 80px;";
+                case PositionAlignment.Right:
+                    return "display: flex; justify-content: flex-end; align-items: center; margin-top: 80px; margin-bottom: 80px;";
+                default:
+                    return "display: flex; justify-content: flex-start; align-items: center; margin-top: 80px; margin-bottom: 80px;";
+            }
+        }
+    }
+
+    private string RoomNumberPreviewStyle => $"font-size: {RoomSign.RoomNumberFont.Size}px; color: {RoomSign.RoomNumberFont.Color}; font-family: {RoomSign.RoomNumberFont.FontName}";
+    private string PersonNamePreviewStyle => $"font-size: {RoomSign.PersonNameFont.Size}px; color: {RoomSign.PersonNameFont.Color}; font-family: {RoomSign.PersonNameFont.FontName}";
+}
+
 
 @if (pdfPreview != null)
 {

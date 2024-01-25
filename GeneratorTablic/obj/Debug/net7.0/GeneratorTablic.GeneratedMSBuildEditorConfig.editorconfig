@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = GeneratorTablic
 build_property.RootNamespace = GeneratorTablic
-build_property.ProjectDir = C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\
+build_property.ProjectDir = /Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic
+build_property.MSBuildProjectDirectory = /Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/App.razor]
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Pages/CreatedSuccessfully.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3JlYXRlZFN1Y2Nlc3NmdWxseS5yYXpvcg==
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Pages/CreatedSuccessfully.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlZFN1Y2Nlc3NmdWxseS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Pages/EditableSign.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRWRpdGFibGVTaWduLnJhem9y
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/_Imports.razor]
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-bw54u2714w
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Pages/EditableSign.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdGFibGVTaWduLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-yolxke3xfl
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-ur7eyiz7ja
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-his2so0ikd
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL05hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ma771wlykr
+
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
+[/Users/adriancielniak/Desktop/university/5sem/C\#/project/DoorSignGenerator/GeneratorTablic/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

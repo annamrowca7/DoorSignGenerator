@@ -1,36 +1,89 @@
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\appsettings.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.staticwebassets.runtime.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.exe
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.deps.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.runtimeconfig.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.dll
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\GeneratorTablic.pdb
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.csproj.AssemblyReference.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.AssemblyInfoInputs.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.AssemblyInfo.cs
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.csproj.CoreCompileInputs.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.RazorAssemblyInfo.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.RazorAssemblyInfo.cs
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets\msbuild.GeneratorTablic.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets\msbuild.build.GeneratorTablic.props
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.GeneratorTablic.props
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.GeneratorTablic.props
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\scopedcss\bundle\GeneratorTablic.styles.css
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\scopedcss\projectbundle\GeneratorTablic.bundle.scp.css
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.dll
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\refint\GeneratorTablic.dll
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.pdb
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.genruntimeconfig.cache
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\ref\GeneratorTablic.dll
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\Newtonsoft.Json.dll
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\GeneratorTablic.csproj.CopyComplete
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\JsonFiles\RoomSign.json
-C:\Users\annam\Documents\studia\4 rok\GeneratorTablic\GeneratorTablic\bin\Debug\net7.0\DinkToPdf.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/appsettings.Development.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/appsettings.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.staticwebassets.runtime.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.exe
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.deps.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.runtimeconfig.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.pdb
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.AssemblyReference.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.AssemblyInfoInputs.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.AssemblyInfo.cs
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.CoreCompileInputs.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.RazorAssemblyInfo.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.RazorAssemblyInfo.cs
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.GeneratorTablic.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.build.GeneratorTablic.props
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.GeneratorTablic.props
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.GeneratorTablic.props
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets.pack.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets.build.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/staticwebassets.development.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/scopedcss/bundle/GeneratorTablic.styles.css
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/scopedcss/projectbundle/GeneratorTablic.bundle.scp.css
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/refint/GeneratorTablic.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.pdb
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.genruntimeconfig.cache
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/ref/GeneratorTablic.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/Newtonsoft.Json.dll
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.CopyComplete
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/JsonFiles/RoomSign.json
+C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/net7.0/DinkToPdf.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/appsettings.Development.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/appsettings.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/JsonFiles/RoomSign.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.staticwebassets.runtime.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.deps.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.runtimeconfig.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/GeneratorTablic.pdb
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/DinkToPdf.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Newtonsoft.Json.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.AssemblyReference.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.AssemblyInfoInputs.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.AssemblyInfo.cs
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.CoreCompileInputs.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.MvcApplicationPartsAssemblyInfo.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.RazorAssemblyInfo.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.RazorAssemblyInfo.cs
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.GeneratorTablic.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.build.GeneratorTablic.props
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.GeneratorTablic.props
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.GeneratorTablic.props
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets.build.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/staticwebassets.development.json
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/bundle/GeneratorTablic.styles.css
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/projectbundle/GeneratorTablic.bundle.scp.css
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.csproj.CopyComplete
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/refint/GeneratorTablic.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.pdb
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/GeneratorTablic.genruntimeconfig.cache
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/ref/GeneratorTablic.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/BemIt.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/BlazorComponent.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/DeepCloner.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/FluentValidation.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/FluentValidation.DependencyInjectionExtensions.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/OneOf.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Util.Reflection.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/BlazorSchool.Components.Web.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.AspNetCore.Authorization.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.AspNetCore.Components.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Forms.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.AspNetCore.Components.Web.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.AspNetCore.Metadata.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.JSInterop.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/Pages/EditableSign.razor.rz.scp.css

@@ -1,3 +1,4 @@
+using BlazorSchool.Components.Web.Core;
 using DinkToPdf;
 using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Components;
@@ -8,9 +9,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddBlazorComponents();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddScoped<PdfService>();
+
 
 var app = builder.Build();
 

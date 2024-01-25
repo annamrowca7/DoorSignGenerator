@@ -8,20 +8,19 @@ namespace GeneratorTablic.Data
     {
         //to teoretycznie do poprawy ale przejdzie od biedy
         public string LogoPath { get; set; } =
-            "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\PIctures\\logo.jpg";
-
+            "/Images/logo.jpg";
         public LogoPosition LogoPosition { get; set; } = new LogoPosition();
         public string RoomNumber { get; set; }
         public FontSettings RoomNumberFont { get; set; } = new FontSettings();
         public List<Person> AssignedPeople { get; set; } = new List<Person>();
-        public FontSettings PeopleFont { get; set; }
+        public FontSettings PersonNameFont { get; set; } = new FontSettings();
         public string FileName { get; set; }
     }
 
     public class LogoPosition
     {
         public PositionAlignment Alignment { get; set; } = PositionAlignment.Left;
-        public int Size { get; set; }
+        public int Size { get; set; } = 400;
     }
 
 //zeby mozna bylo ustawiac gdziekolwiek logo trzeba bylo sie pobawic generowaniem dokumentu zeby reszte elemntow jakos sensowanie sie ustawiala - nie mialam na to pomyslu

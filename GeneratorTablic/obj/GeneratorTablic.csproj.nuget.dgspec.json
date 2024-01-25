@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\GeneratorTablic.csproj": {}
+    "/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/GeneratorTablic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\GeneratorTablic.csproj": {
+    "/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/GeneratorTablic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\GeneratorTablic.csproj",
+        "projectUniqueName": "/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/GeneratorTablic.csproj",
         "projectName": "GeneratorTablic",
-        "projectPath": "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\GeneratorTablic.csproj",
-        "packagesPath": "C:\\Users\\annam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annam\\Documents\\studia\\4 rok\\GeneratorTablic\\GeneratorTablic\\obj\\",
+        "projectPath": "/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/GeneratorTablic.csproj",
+        "packagesPath": "/Users/adriancielniak/.nuget/packages/",
+        "outputPath": "/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\annam\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/adriancielniak/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,6 +39,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "BlazorComponent": {
+              "target": "Package",
+              "version": "[1.3.2, )"
+            },
+            "BlazorSchool.Components.Web": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "DinkToPdf": {
               "target": "Package",
               "version": "[1.0.8, )"
@@ -73,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.401/RuntimeIdentifierGraph.json"
         }
       }
     }
