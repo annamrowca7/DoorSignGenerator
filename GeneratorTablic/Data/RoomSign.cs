@@ -7,8 +7,7 @@ namespace GeneratorTablic.Data
     public class RoomSign
     {
         //to teoretycznie do poprawy ale przejdzie od biedy
-        public string LogoPath { get; set; } =
-            "/Images/logo.jpg";
+        public string LogoPath { get; set; } = "/Images/logo.jpg";
         public LogoPosition LogoPosition { get; set; } = new LogoPosition();
         public string RoomNumber { get; set; }
         public FontSettings RoomNumberFont { get; set; } = new FontSettings();

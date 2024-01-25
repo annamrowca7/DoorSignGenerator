@@ -32,6 +32,9 @@
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)blazorschool.components.web/7.2.0/buildTransitive/BlazorSchool.Components.Web.props" Condition="Exists('$(NuGetPackageRoot)blazorschool.components.web/7.2.0/buildTransitive/BlazorSchool.Components.Web.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise/1.4.1/buildTransitive/Blazorise.props" Condition="Exists('$(NuGetPackageRoot)blazorise/1.4.1/buildTransitive/Blazorise.props')" />
+    <Import Project="$(NuGetPackageRoot)blazorise.bootstrap/1.4.1/buildTransitive/Blazorise.Bootstrap.props" Condition="Exists('$(NuGetPackageRoot)blazorise.bootstrap/1.4.1/buildTransitive/Blazorise.Bootstrap.props')" />
+    <Import Project="$(NuGetPackageRoot)blazored.modal/7.2.0/buildTransitive/Blazored.Modal.props" Condition="Exists('$(NuGetPackageRoot)blazored.modal/7.2.0/buildTransitive/Blazored.Modal.props')" />
     <Import Project="$(NuGetPackageRoot)blazorcomponent/1.3.2/buildTransitive/BlazorComponent.props" Condition="Exists('$(NuGetPackageRoot)blazorcomponent/1.3.2/buildTransitive/BlazorComponent.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">

@@ -87,3 +87,8 @@ C:/Users/annam/Documents/studia/4 rok/GeneratorTablic/GeneratorTablic/bin/Debug/
 /Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.Extensions.Options.dll
 /Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.JSInterop.dll
 /Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/obj/Debug/net7.0/scopedcss/Pages/EditableSign.razor.rz.scp.css
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Blazored.Modal.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Blazorise.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Blazorise.Bootstrap.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Blazorise.Licensing.dll
+/Users/adriancielniak/Desktop/university/5sem/C#/project/DoorSignGenerator/GeneratorTablic/bin/Debug/net7.0/Microsoft.JSInterop.WebAssembly.dll

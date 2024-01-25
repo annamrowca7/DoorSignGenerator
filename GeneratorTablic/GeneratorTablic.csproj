@@ -8,6 +8,8 @@
 
     <ItemGroup>
         <PackageReference Include="BlazorComponent" Version="1.3.2" />
+        <PackageReference Include="Blazored.Modal" Version="7.2.0" />
+        <PackageReference Include="Blazorise.Bootstrap" Version="1.4.1" />
         <PackageReference Include="BlazorSchool.Components.Web" Version="7.2.0" />
         <PackageReference Include="DinkToPdf" Version="1.0.8" />
         <PackageReference Include="DinkToPdfIncludesDependencies" Version="1.0.8" />
