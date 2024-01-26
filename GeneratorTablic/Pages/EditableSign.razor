@@ -5,12 +5,11 @@
 @using BlazorSchool.Components.Web.Variants
 @using Newtonsoft.Json;
 @inherits CreateSignBase;
-@using Blazorise.Bootstrap;
 @inject IJSRuntime JS;
 
 <BlazorLibrary>
     <div class="container">
-        <h3>Create Door Sign</h3>
+        <h3 >Create Door Sign</h3>
         <!-- Dodaj formularz do tworzenia tabliczki -->
         <hr/>
         <h4> Logo Settings</h4>
@@ -28,6 +27,7 @@
                 <InputNumber id="logoPositionSize" class="form-control" placeholder="Logo Size" @bind-Value="@RoomSign.LogoPosition.Size" min="400" max="800"/>
             </div>
         </div>
+        <hr/>
         <h4> Room Number Settings</h4>
         <div class="form-group row">
             <label for="roomNumber" class="col-sm-2 col-form-label">Room Number</label>
@@ -55,6 +55,7 @@
                 </select>
             </div>
         </div>
+        <hr/>
         <h4> People Managment</h4>
         <div class="form-group row">
             <label for="roomNumberFontSize" class="col-sm-1 col-form-label">Font Size</label>
@@ -79,7 +80,7 @@
         </div>
         <!-- Dodaj inne pola formularza, takie jak osoby przydzielone do gabinetu -->
         <div class="form-group row">
-            <label for="assignedPeople" class="col-sm-2 col-form-label">Assigned People</label>
+            <label for="assignedPeople" class="col-sm-2 col-form-label h4">Assigned People</label>
             <div class="row mb-2">
                 <div class="col-4">
                     <input class="form-control" placeholder="Name" @bind="TempPerson.Name"/>
@@ -94,7 +95,7 @@
         </div>
         @* tu dodac ustawiaani koloru i rozmiaru tej sekcji i upiekszyc to - moge to zrobic wczoraj juz nmei zdazylam *@
         <div class="form-group row">
-            <div class="col-sm-10 offset-sm-2">
+            <div class="col-sm-10 col-form-label">
                 @foreach (var person in RoomSign.AssignedPeople)
                 {
                     <div class="row mb-2">
@@ -104,7 +105,7 @@
                         <div class="col-4">
                             <input class="form-control" placeholder="Position" @bind="person.Position"/>
                         </div>
-                        <div class="col-2">
+                        <div class="col-sm-2">
                             <button type="button" class="btn btn-danger" @onclick="() => RemovePerson(person)">-</button>
                         </div>
                     </div>
@@ -112,26 +113,42 @@
             </div>
         </div>
         
-        <div class="col-4">
-            <label for="fileInput">Choose a File:</label>
-            <InputFile OnChange="@LoadFile" multiple/>
-        </div>
-        <div class="col-4">
-            <label for="fileInput">Choose a File Name:</label>
-            <InputText placeholder="File Name" @bind-Value="RoomSign.FileName"/>
+        <h4 class="section-title">Load JSON</h4>
+        <hr />
+        <div class="row background-row">
+            <div class="col-sm-8 file-section">
+                <label for="fileInput">Choose a File:</label>
+                <InputFile OnChange="@LoadFile" multiple />
+            </div>
+            <div class="col-sm-4 button-container">
+                <button type="submit" class="btn btn-primary" @onclick="SubmitFile">Load</button>
+            </div>
         </div>
         
-        <div class="form-group row">
-            <div class="grid">
-                <button type="submit" class="btn btn-primary mr-2" @onclick="SaveAsJson">Create Sign</button>
-                <BlazorCapturePdfButton Variants="new[] { BaseVariants.Primary }" TargetToken="Form" class="flex-fill">Save As Pdf</BlazorCapturePdfButton>
-                <button type="submit" class="btn btn-primary mr-2" @onclick="SubmitFile">Load File</button>
+        <h4 class="section-title">Save JSON</h4>
+        <hr />
+        <div class="row background-row">
+            <div class="col-sm-8 file-section">
+                <label for="fileInput">Choose a File Name:</label>
+                <InputText placeholder="File Name" @bind-Value="RoomSign.FileName" />
+            </div>
+            <div class="col-sm-4 button-container">
+                <button type="submit" class="btn btn-primary" @onclick="SaveAsJson">Save</button>
+            </div>
+        </div>
+        
+        <h4 class="section-title">Create PDF file</h4>
+        <hr />
+        <div class="row">
+            <div class="col-sm-12 file-section">
+                <BlazorCapturePdfButton Variants="new[] { BaseVariants.Primary }" TargetToken="Form" class="flex-fill">Create PDF</BlazorCapturePdfButton>
             </div>
         </div>
 
+
         
         <BlazorCaptureElement Token="Form" class="flex-fill">
-            <div class="form-group" style="margin-bottom: 150px">
+            <div class="form-group" style="margin-bottom: 150px;">
                 <div class="sign-preview" style="@PreviewStyle">
                         @if (!string.IsNullOrWhiteSpace(RoomSign.LogoPath))
                         {
